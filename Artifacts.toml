@@ -1,0 +1,6 @@
+[libmcfp]
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+0/libmcfp.v1.2.4.any.tar.gz"
