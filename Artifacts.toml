@@ -1,6 +1,143 @@
-[libmcfp]
+[[libmcfp]]
+arch = "aarch64"
 git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+os = "macos"
 
     [[libmcfp.download]]
     sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
-    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+0/libmcfp.v1.2.4.any.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.aarch64-apple-darwin.tar.gz"
+[[libmcfp]]
+arch = "aarch64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.aarch64-linux-gnu.tar.gz"
+[[libmcfp]]
+arch = "aarch64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+libc = "musl"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.aarch64-linux-musl.tar.gz"
+[[libmcfp]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.armv6l-linux-gnueabihf.tar.gz"
+[[libmcfp]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "musl"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.armv6l-linux-musleabihf.tar.gz"
+[[libmcfp]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.armv7l-linux-gnueabihf.tar.gz"
+[[libmcfp]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "musl"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.armv7l-linux-musleabihf.tar.gz"
+[[libmcfp]]
+arch = "i686"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.i686-linux-gnu.tar.gz"
+[[libmcfp]]
+arch = "i686"
+git-tree-sha1 = "4eb38db18d4c9884f15a78f6c897defa6cda05b1"
+libc = "musl"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "e2c70f9a65917b913903f3a8a35954b39807163ddf4b8d6030a360ff5c3a8525"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.i686-linux-musl.tar.gz"
+[[libmcfp]]
+arch = "i686"
+git-tree-sha1 = "164773359af7cfaf5fecec71abc6bb95aaa58a71"
+os = "windows"
+
+    [[libmcfp.download]]
+    sha256 = "0a1ccf2fd47dc4647f680dc5176ad986bc29f9d3589c2ceae9f7a1905aebec4a"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.i686-w64-mingw32.tar.gz"
+[[libmcfp]]
+arch = "powerpc64le"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.powerpc64le-linux-gnu.tar.gz"
+[[libmcfp]]
+arch = "x86_64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+os = "macos"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.x86_64-apple-darwin.tar.gz"
+[[libmcfp]]
+arch = "x86_64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+libc = "glibc"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.x86_64-linux-gnu.tar.gz"
+[[libmcfp]]
+arch = "x86_64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+libc = "musl"
+os = "linux"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.x86_64-linux-musl.tar.gz"
+[[libmcfp]]
+arch = "x86_64"
+git-tree-sha1 = "0519d0b20d8801c4ed06d2c293bf44b6ba69e0b0"
+os = "freebsd"
+
+    [[libmcfp.download]]
+    sha256 = "6587d69e684d487b6422453d45a8cec4e2b1e30eff799ea02ff4cca0afedb7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.x86_64-unknown-freebsd.tar.gz"
+[[libmcfp]]
+arch = "x86_64"
+git-tree-sha1 = "ba2537b6df267fdf5713c7caf187a16c32c5396f"
+os = "windows"
+
+    [[libmcfp.download]]
+    sha256 = "e228e1182c4dc202fb726835776b9ff6972e6af7253dbaba8895dca781cd7f8f"
+    url = "https://github.com/JuliaBinaryWrappers/libmcfp_jll.jl/releases/download/libmcfp-v1.2.4+1/libmcfp.v1.2.4.x86_64-w64-mingw32.tar.gz"
